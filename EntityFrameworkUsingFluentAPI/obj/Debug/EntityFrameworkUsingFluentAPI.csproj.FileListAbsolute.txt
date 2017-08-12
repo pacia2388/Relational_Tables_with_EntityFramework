@@ -1,0 +1,12 @@
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFrameworkUsingFluentAPI.exe.config
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFrameworkUsingFluentAPI.exe
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFrameworkUsingFluentAPI.pdb
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFramework.dll
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFramework.xml
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.csprojResolveAssemblyReference.cache
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.exe
+c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.pdb
+C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.Migrations.InitialModel.resources
+C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.csproj.GenerateResource.Cache
