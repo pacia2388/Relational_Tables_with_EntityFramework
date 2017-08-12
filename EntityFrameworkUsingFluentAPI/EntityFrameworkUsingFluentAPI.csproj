@@ -52,6 +52,7 @@
     <Compile Include="Author.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="Cover.cs" />
+    <Compile Include="EntityConfigurations\CurseConfigurations.cs" />
     <Compile Include="Migrations\201708121609189_InitialModel.cs" />
     <Compile Include="Migrations\201708121609189_InitialModel.Designer.cs">
       <DependentUpon>201708121609189_InitialModel.cs</DependentUpon>
@@ -59,6 +60,10 @@
     <Compile Include="Migrations\201708121711251_OverridingIdsInMappingTable.cs" />
     <Compile Include="Migrations\201708121711251_OverridingIdsInMappingTable.Designer.cs">
       <DependentUpon>201708121711251_OverridingIdsInMappingTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708121751003_ManagingConfigurations.cs" />
+    <Compile Include="Migrations\201708121751003_ManagingConfigurations.Designer.cs">
+      <DependentUpon>201708121751003_ManagingConfigurations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -76,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708121711251_OverridingIdsInMappingTable.resx">
       <DependentUpon>201708121711251_OverridingIdsInMappingTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708121751003_ManagingConfigurations.resx">
+      <DependentUpon>201708121751003_ManagingConfigurations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

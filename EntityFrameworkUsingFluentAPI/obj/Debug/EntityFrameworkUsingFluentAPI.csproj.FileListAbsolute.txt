@@ -11,3 +11,4 @@ c:\users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluen
 C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.Migrations.InitialModel.resources
 C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.csproj.GenerateResource.Cache
 C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.Migrations.OverridingIdsInMappingTable.resources
+C:\Users\enduser\documents\visual studio 2017\Projects\EntityFrameworkUsingFluentAPI\EntityFrameworkUsingFluentAPI\obj\Debug\EntityFrameworkUsingFluentAPI.Migrations.ManagingConfigurations.resources
