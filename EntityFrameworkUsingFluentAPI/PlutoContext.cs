@@ -46,7 +46,12 @@ namespace EntityFrameworkUsingFluentAPI
             modelBuilder.Entity<Course>()
                 .HasMany(c => c.Tags)
                 .WithMany(t => t.Courses)
-                .Map(m => m.ToTable("CourseTags"));
+                .Map(m =>
+                {
+                    m.ToTable("CourseTags");
+                    m.MapLeftKey("CourseId");
+                    m.MapRightKey("TagId");
+                });
 
             //The Course and Cover table has a one to one relationship
             //Course table acts as a principal or parent table
