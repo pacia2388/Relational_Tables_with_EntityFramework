@@ -14,19 +14,6 @@ namespace EntityFrameworkUsingFluentAPI.Migrations
 
         protected override void Seed(EntityFrameworkUsingFluentAPI.PlutoContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
-
             #region Add Tags
 
             var tags = new Dictionary<string, Tag>
@@ -118,11 +105,51 @@ namespace EntityFrameworkUsingFluentAPI.Migrations
                     Level = 1,
                     Tags = new Collection<Tag>
                     {
-                        tags["c#"]
+                        tags["oop"]
+                    }
+                },
+                new Course
+                {
+                    Id = 4,
+                    Name = "Javascript: Understanding the Weird Parts",
+                    Author = authors[1],
+                    FullPrice = 200,
+                    Description = "Description for Javascript",
+                    Level = 2,
+                    Tags = new Collection<Tag>
+                    {
+                        tags["javascript"]
+                    }
+                },
+                new Course
+                {
+                    Id = 5,
+                    Name = "Learn and Understand AngularJS",
+                    Author = authors[3],
+                    FullPrice = 200,
+                    Description = "Description for AngularJS",
+                    Level = 2,
+                    Tags = new Collection<Tag>
+                    {
+                        tags["angularjs"]
+                    }
+                },new Course
+                {
+                    Id = 6,
+                    Name = "Learn and Understand NodeJS",
+                    Author = authors[2],
+                    FullPrice = 300,
+                    Description = "Description for NodeJS",
+                    Level = 3,
+                    Tags = new Collection<Tag>
+                    {
+                        tags["nodejs"]
                     }
                 }
-
             };
+
+            foreach (var course in courses)
+                context.Courses.AddOrUpdate(c => c.Id, course);
             #endregion
         }
     }
