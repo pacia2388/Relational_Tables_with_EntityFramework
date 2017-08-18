@@ -5,14 +5,14 @@ namespace EntityFrameworkUsingFluentAPI.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EntityFrameworkUsingFluentAPI.PlutoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<PlutoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EntityFrameworkUsingFluentAPI.PlutoContext context)
+        protected override void Seed(PlutoContext context)
         {
             #region Add Tags
 
